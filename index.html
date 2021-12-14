@@ -32,13 +32,16 @@
                                 <a class="nav-link active" aria-current="page" href="#">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Features</a>
+                                <a class="nav-link" href="#featuresNavbar">Features</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Pricing</a>
+                                <a class="nav-link" href="#blogNavbar">Blog</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">About</a>
+                                <a class="nav-link" href="#teamNavbar">Our team</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#conectNavbar">Contact</a>
                             </li>
                         </ul>
                         <div class="d-flex justify-content-lg-end">
@@ -51,6 +54,13 @@
             </nav>
         </article>
     </header>
+    <!-- top button  -->
+    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+            class="bi bi-arrow-up  opacity-50 text-light bg-danger fs-4 d-flex rounded-circle justify-content-center align-items-center position-fixed "
+            style="left: 15px; bottom: 15px;" viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+                d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z" />
+        </svg></a>
     <!-- Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
@@ -77,6 +87,7 @@
         </div>
     </div>
     <!-- main  -->
+
     <main class="py-4 mt-5">
         <article class="container">
             <section class="row">
@@ -96,7 +107,7 @@
             </section>
         </article>
         <!-- features -->
-        <article class="py-4 bg-primary">
+        <article class="py-4 bg-primary" id="featuresNavbar">
             <section class="container">
                 <h2 class="display-5 text-center mt-3">
                     features
@@ -272,7 +283,7 @@
             </section>
             <!-- part 5 -->
         </article>
-        <article class="container col-lg4 py-4">
+        <article class="container col-lg4 py-4" id="blogNavbar">
             <h2 class="display-5 text-center mt-3">
                 Recent posts from our Blog
             </h2>
@@ -389,7 +400,7 @@
             </section>
         </article>
         <!-- my team  -->
-        <article class="container py-4">
+        <article class="container py-4 " id="teamNavbar">
             <h2 class="display-5 text-center mt-3">
                 My Team
             </h2>
@@ -659,7 +670,7 @@
         </article>
         <!-- form-conntact  -->
         <article class="py-4">
-            <section class="container">
+            <section class="container" id="conectNavbar">
                 <h2 class="display-5 text-center mt-3">
                     Contact
                 </h2>
