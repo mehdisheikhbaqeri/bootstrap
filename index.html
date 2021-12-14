@@ -42,12 +42,40 @@
                             </li>
                         </ul>
                         <div class="d-flex justify-content-lg-end">
-                            <button class="btn btn-primary">Get Start </button>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                Get Started
+                            </button>
                         </div>
                     </div>
             </nav>
         </article>
     </header>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Subscribe to newsletter</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <section class="bg-primary p-4 rounded">
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                            <input type="email" class="contantEmail form-control" id="exampleFormControlInput1"
+                                placeholder="name@example.com">
+                        </div>
+                        <button class="btn btn-primary mb-2 mt-1">Subscribe</button>
+
+                    </section>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Okey Bye</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- main  -->
     <main class="py-4 mt-5">
         <article class="container">
@@ -58,7 +86,9 @@
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur id ratione perferendis
                         reiciendis voluptatem quas.
                     </p>
-                    <a href="#" class="btn btn-primary">Get Started</a>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Get Started
+                    </button>
                 </section>
                 <section class="col-md-6">
                     <img class="img-fluid" src="./img/Business Plan-pana.svg" alt="Mazloom">
